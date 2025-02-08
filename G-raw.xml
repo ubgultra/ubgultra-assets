@@ -157,7 +157,7 @@
 
         // Фоновое изображение при загрузке игры. При сборке билда код меняется взависимости от настроек проекта.
         
-        loadingCover.style.background = "url('https://cdn.jsdelivr.net/gh/z-f3-f1/1@main/background.jpg') center / cover";
+        loadingCover.style.background = "url('https://cdn.jsdelivr.net/gh/ubgultra/ubgultra-assets@main/UBGUltra-Game%20Loading.png') center / cover";
 
         loadingCover.style.display = "";
 
