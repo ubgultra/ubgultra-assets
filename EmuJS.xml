@@ -462,7 +462,7 @@
                     } else {
                         option.textContent = version;
                     }
-                    if (localStorage.getItem("version") && localStorage.getItem("version") === version) {
+                    if (localStorage.getItem("version") &amp;&amp; localStorage.getItem("version") === version) {
                         option.selected = true;
                         window.cdn = "https://cdn.emulatorjs.org/" + option.value + "data/";
                     } else if (version.includes(default_option)) {
