@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Bitlife Gadget"
+                 description="Gadget Cool"
+                 author="Your Name"
+                 author_email="your.email@example.com">
+    </ModulePrefs>
+    <Content type="html">
+    <![CDATA[
 <document>
     <head>
         <meta charset="utf-8"/>
@@ -26,3 +34,6 @@
         </div>
     </body>
 </document>
+        ]]>
+    </Content>
+</Module>
